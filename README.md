@@ -65,8 +65,15 @@ Explore the data by looking at the first few rows, data type and summary of each
 ```bash
 # explore
 head(equip)
+```
+```bash
 str(equip)
+```
+![image](https://user-images.githubusercontent.com/77570308/167725028-23d98fb6-f24f-4296-9a04-7908b714c357.png)
+
+```bash
 summary(equip)
+```
 
 # format variables
 
@@ -81,5 +88,6 @@ person$date <- as.Date(person$date,
                       format = "%Y-%m-%d")
 str(person)
 ```
+
 
 ## Conclusions:
