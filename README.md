@@ -35,4 +35,30 @@ Illustrate the dynamics of equipment and personel losses in the first 2 months o
 
 ## Data visualization:
 
+Firstly, I load the packages needed for the analysis. The most common for exploratory data analysis are: *dplyr* and *ggplot2*.
+
+```bash
+# packages
+library(ggplot2)
+#install.packages("dplyr")
+library(dplyr)
+library(tidyr)
+#install.packages("gridExtra")
+library(gridExtra)
+library(grid)
+library(forcats)
+```
+
+Then, I set the directory and upload the data.
+
+```bash
+# working directory
+getwd()
+setwd("C:\\Users\\hrabo\\Dropbox\\Portfolio\\R\\UkraineData")
+
+# load the data
+equip <- read.csv("russia_losses_equipment.csv")
+person <- read.csv("russia_losses_personnel.csv")
+```
+
 ## Conclusions:
