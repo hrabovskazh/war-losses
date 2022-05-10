@@ -5,12 +5,13 @@ Data visualization of russian military losses in Ukraine since 24.02.2022
 
 **Data description:**
 
-# russia_losses_equipment.csv
+### russia_losses_equipment.csv
 
-*date
+*date - current date
 *day
+
  
-# russia_losses_personnel.csv
+### russia_losses_personnel.csv
 
 **Data visualization:**
 
