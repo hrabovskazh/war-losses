@@ -60,5 +60,26 @@ setwd("C:\\Users\\hrabo\\Dropbox\\Portfolio\\R\\UkraineData")
 equip <- read.csv("russia_losses_equipment.csv")
 person <- read.csv("russia_losses_personnel.csv")
 ```
+Explore the data by looking at the first few rows, data type and summary of each column. I find that the records for some types of equipment are missing in the beginning of the dataset, so I change the NAs with zeros. Moreover, I transform *date* variable from **chr** into **date** format. 
+
+```bash
+# explore
+head(equip)
+str(equip)
+summary(equip)
+
+# format variables
+
+#replace NA with zeros
+equip[is.na(equip)] <- 0
+person[is.na(person)] <- 0
+#make dates
+equip$date <- as.Date(equip$date,
+                       format = "%Y-%m-%d")
+str(equip)
+person$date <- as.Date(person$date,
+                      format = "%Y-%m-%d")
+str(person)
+```
 
 ## Conclusions:
