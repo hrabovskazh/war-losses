@@ -9,10 +9,29 @@ Illustrate the dynamics of equipment and personel losses in the first 2 months o
 ### russia_losses_equipment.csv
 
 * date - current date
-* day
+* day - number of days since the start of the full scale invasion (24.02.2022)
+* aircraft - # of units destroyed since the start of the full scale invasion (24.02.2022)
+* helicopter
+* tank
+* APC - armoured personnel carrier
+* field artillery
+* MRL - multiple rocket launcher
+* military auto
+* fuel tank
+* drone
+* naval ship
+* anti-aircraft warfare
+* speacial equipment
+* mobile SRBM system - mobile short-range ballistic missile system
 
- 
+
 ### russia_losses_personnel.csv
+
+* date - current date
+* day - number of days since the start of the full scale invasion (24.02.2022)
+* personnel - # of killed personnel since the start of the full scale invasion (24.02.2022)
+* POW - # of prisoners of war since the start of the full scale invasion (24.02.2022)
+
 
 ## Data visualization:
 
